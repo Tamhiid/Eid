@@ -55,22 +55,59 @@ body{
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         padding: 20px;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 5px;
         background-color: #14300c;
         border-radius: 5px;
         color: #fff;
     }
     .data{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .data h2{
         display: inline-block;
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         padding: 20px;
-       margin-left: 2px;
-        margin-top: 200px;
+       margin-left: 0px;
+        margin-top: 300px;
+        text-align: center;
+        color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .title{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        color: #fff;
+        /* display: none; */
+    }
+    .timer li{
+        display: inline-block;
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        margin-left: 0px;
+        margin-top: 3px;
+        background-color: #14300c;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .data{
+        margin-left: 35px;
+    }
+    .data h2{
+        display: inline-block;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 5px;
+       margin-left: 0px;
+        margin-top: 180px;
+        text-align: center;
         color: #fff;
     }
   }
